@@ -1,0 +1,10 @@
+{
+    "reporter": ["text", "html"],
+    "all": true,
+    "include": ["src/**/*.js"],
+    "exclude": ["**/*.test.js", "**/node_modules/**"],
+    "instrument": true,
+    "sourceMap": true,
+    "require": ["@babel/register"]
+  }
+  
